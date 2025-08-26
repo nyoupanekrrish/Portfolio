@@ -152,7 +152,7 @@
         return;
       }
       // here you could integrate an email API or send to server
-      alert('Thanks, ' + name + '! Your message has been recorded (demo).');
+      alert('Thanks, ' + name + '! Your message has been recorded.');
       form.reset();
     });
   }
@@ -192,5 +192,6 @@
     el.style.transition = 'all .7s cubic-bezier(.2,.9,.3,1)';
     obs.observe(el);
   });
+  
 
 })();
